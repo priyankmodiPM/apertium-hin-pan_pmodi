@@ -1,0 +1,8 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+srcdir=${prefix}/share/apertium/apertium-pan
+
+Name: apertium-pan
+Description: Finite-state morphological transducer and constraint grammar for Punjabi 
+Version: 0.1.0
+
