@@ -47,6 +47,10 @@ $ head -10  texts/story.hin.txt  | apertium -d . hin-pan_Guru > test_pan.txt
 $ python word_freq.py > word_freq.txt
 ```
 
+If you face dependency issues make sure the following are satisfied :
+- apertium package is installed - $ pip3 install apertium
+- build libraries are installed - $ sudo apt-get install autoconf automake pkg-config libgtk-3-dev
+
 # Translated files
 The translated file is available at /apertium-hin-pan_pmodi/apertium-hin-pan/test_pan.txt
 The file word_freq.txt provides frequencies of all words to give an idea about what words remain to be translated
