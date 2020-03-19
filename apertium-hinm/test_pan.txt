@@ -1,0 +1,7 @@
+Error: Mode hin-pan_Guru does not exist. Try one of:
+  hin-disam
+  hin-gener
+  hin-morph
+  hin-spell
+  hin-tagger
+  hin-tokenise
